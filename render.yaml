@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: lavalink
+    env: docker
+    repo: https://github.com/tu-usuario/lavalink-node
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    branch: main
+    healthCheckPath: /

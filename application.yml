@@ -1,0 +1,18 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: true
+      soundcloud: true
+      http: true
+    bufferDurationMs: 400
+    youtubeSearchEnabled: true
+    playerUpdateInterval: 5
+
+logging:
+  level:
+    root: INFO
